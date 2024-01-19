@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            table {
+                border-collapse: separate;
+                margin: 20px 0;
+                max-width: 100px;
+                width: 100%;
+                float: left;
+            }
+            th,
+            td {
+                border: 1px solid black;
+                padding: 2px;
+                text-align: center;
+            }
+            th {
+                background-color: #ffffff;
+            }
+            tr {
+                display: table-row;
+            }
+            td {
+                display: table-cell;
+            }
+
+        </style>
+        <table>
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="3">Seminar</th>
+            </tr>
+
+            <tr>
+                <th colspan="2">Schedule</th>
+                <th rowspan="2">Topic</th>
+            </tr>
+
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2"; style="background-color: rgb(224, 217, 151);">8:00am</td>
+                <td rowspan="2" style="background-color: rgb(224, 114, 217);">5:00pm</td>
+                <td>introduction to XML</td>
+            </tr>
+            
+            <tr>
+                <td>Validity: DTD and Relax NG</td>
+            </tr>
+
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td style="background-color: rgb(224, 217, 151)">8:00am</td>
+                <td style="background-color: rgb(224, 217, 151)">11:00am</td>
+                <td rowspan="1">Xpath</td>
+            </tr>
+
+            <tr>
+                <td style="background-color: rgb(224, 217, 151)">11:00am</td>
+                <td style="background-color: rgb(157, 224, 151)">2:00pm</td>
+                <td rowspan="2">XSL transformations</td>
+            </tr>
+
+            <tr>
+                <td style="background-color: rgb(157, 224, 151)">2:00pm</td>
+                <td style="background-color: rgb(224, 114, 217)">5:00pm</td>
+            </tr>
+
+            <tr>
+                <td>Wednesday</td>
+                <td style="background-color: rgb(224, 217, 151)">8:00am</td>
+                <td style="background-color: rgb(157, 224, 151)">12:00pm</td>
+                <td>XSL formatting objects</td>
+            </tr>          
+        </table>
